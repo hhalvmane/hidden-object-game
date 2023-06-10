@@ -1,5 +1,5 @@
 # hidden-object-game
-Simple web game where you need to find hidden objects on a picture.
+It is a simple web game where you need to find hidden objects on a picture.
 It was my ImageMaps-making training in HTML.
 I will update this game in the future to add more features
 
