@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Map</title>
+</head>
+<body style="background-color: darkolivegreen">
+    <style>
+        body {
+            color: aliceblue;
+        }
+    </style>
+    <img src="img/image_map.jpg" alt="PC setup image" style="width: 1580px; height: 812px;" usemap="#map">
+    <map name="#map">
+        <area shape="poly" coords="546,149,604,169,744,172,883,128,885,111,901,104,921,113,992,54,1014,43,1015,65,926,142,917,168,878,163,770,193,702,201,619,197,570,182,545,167,542,152" 
+        title="catana" onclick="correct()">
+        <area shape="circle" coords="618,228,100" title="big lamp" onclick="correct()">
+        <area shape="poly" coords="1022,349,1080,383,1115,383,1155,364,1156,345,1135,332,1107,351,1078,361,1024,350" title="horn" onclick="correct()">
+        <area shape="poly" coords="81,790,84,753,106,731,115,708,117,688,102,698,89,710,75,714,79,695,64,707,62,729,72,769" title="hand" onclick="correct()">
+        <area shape="rect" coords="503,442,650,524" title="pillow" onclick="correct()">
+        <area shape="poly" coords="1001,661,997,600,1023,588,1027,566,1053,568,1044,625,1034,646,1056,648,1047,688,1020,700,1005,679" title="arrows" onclick="correct()">
+        <area shape="poly" coords="565,87,579,87,593,73,611,71,618,79,635,80,635,94,625,106,590,116,582,110,563,91" title="kettle" onclick="correct()">
+    </map>
+    <h1 style="text-align: center;">Help me find something!</h1>
+    <p style="font-size: large;">I'm searching for the: <br> - pillow <br> - horn <br> - big lamp <br> - hand <br> - catana <br> - arrows <br> - kettle <br></p>
+    <h2>Can you find all the items?</h2>
+    <script> function correct() { alert("Good job!");} </script>
+
+</body>
+</html>
